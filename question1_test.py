@@ -1,4 +1,8 @@
 print("lets start! question one.")
 
-def question1():
-  print("")
+ans1 = input ("what does aporo mean? \na. apple \nb. ants \nc. android \nAnswer: ")
+if ans1 == "a" or ans1 == "apple" or ans1 == "A" : 
+  print("correct!!")
+
+elif ans1 == "b" or ans1 == "B" or ans1 == "c" or ans1 == "C" or ans1 == "ants" or ans1 == "android":
+  print ("wrong!!!")
