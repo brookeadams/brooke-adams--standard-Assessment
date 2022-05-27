@@ -6,3 +6,5 @@ if ans2 == "b" or ans2 == "whitu" or ans2 == "B" :
 
 elif ans2 == "a" or ans2 == "A" or ans2 == "c" or ans2 == "C" or ans2 == "whitu tekau" or ans2 == "tekau ma whitu":
   print ("wrong!!!")
+else:
+  print ("thats not an option? next question!!")
