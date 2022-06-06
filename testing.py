@@ -100,11 +100,35 @@ def q5():
     print("correct!!")
     score = score + 10
     print("your current score is",score)
+    q6()
     
   
   elif ans5 == "b" or ans5 == "B" or ans5 == "papura" or ans5 == "purple":
-   print ("purple banana?? um no your wrong!!!congrats on getting a score of", score)
+   print ("purple banana?? um no your wrong!!!")
+   q6()
   else:
     print ("thats not an option? your done!congrats on getting a score of", score)
+    q6()
+
+def q6():
+  global score
+  
+  #question number six\tell current score - brooke - 02\22 - 0.3
+  print ("quesion 6!!")
+
+  ans6 = input ("what is Aotearoa? \na. new zealand \nb. austraila \nc. china \nAnswer: ")
+  if ans6 == "a" or ans6 == "new zealand" or ans6 == "A":
+    print("correct!!")
+    score = score + 10
+    print("your current score is",score)
+    q6()
+    
+  
+  elif ans6 == "b" or ans6 == "B" or ans6 == "china" or ans6 == "austraila" or ans6 == "c" or ans6 == "C":
+   print ("wrong!?")
+   q6()
+  else:
+    print ("thats not an option? your done!")
+    q6()
 
 q1()
