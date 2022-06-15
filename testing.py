@@ -109,7 +109,7 @@ def q5():
         print("purple banana?? um no your wrong!!!")
         q6()
     else:
-        print("thats not an option? your done!congrats on getting a score of",
+        print("thats not an option? your done!your score is",
               score)
         q6()
 
@@ -185,7 +185,7 @@ def q9():
     print("quesion 9!!")
 
     ans9 = input(
-        "what are the two offical languages? \na. english\maori \nb. maori\sign language \nc. english\sign language \nAnswer: "
+        "what are the two offical languages in nz? \na. english\maori \nb. maori\sign language \nc. english\sign language \nAnswer: "
     )
     if ans9 == "b" or ans9 == "maori\sign language" or ans9 == "B":
         print("correct!!")
@@ -203,19 +203,19 @@ def q9():
 def q10():
     global score
 
-    #question number nine\tell current score - brooke - 09\06\22 - 0.1
+    #question number ten\tell current score - brooke - 09\06\22 - 0.1
     print("quesion 10!!")
 
     ans10 = input(
-        "what are the two offical languages? \na. english\maori \nb. maori\sign language \nc. english\sign language \nAnswer: "
+        "what does kura mahita mean \na. caretaker \nb. school teacher \nc. dance instructor \nAnswer: "
     )
-    if ans10 == "b" or ans10 == "maori\sign language" or ans10 == "B":
+    if ans10 == "b" or ans10 == "school teacher" or ans10 == "B":
         print("correct!!")
         score = score + 10
         print("your current score is", score)
         q10()
 
-    elif ans10 == "c" or ans10 == "C" or ans10 == "english\maori" or ans10 == "english\sign language" or ans10 == "a" or ans10 == "A":
+    elif ans10 == "c" or ans10 == "C" or ans10 == "caretaker" or ans10 == "dance instructor" or ans10 == "a" or ans10 == "A":
         print("wrong!?")
         q10()
     else:
